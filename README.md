@@ -62,3 +62,7 @@ testing
 
                 - congress.gov api
 
+
+The Inital repo got messed up. I forgot to configure .env and dont want those on the internet 
+congressional app challenge 2025
+Logan Bruner, Nathan Wooden, and Bryson Blakney.
