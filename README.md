@@ -38,9 +38,16 @@ Server Running
 
 
 testing
+
     if you cant call the API's and are getting errors, check the cpp file
+
         ./backend/main.cpp
+
             in a editor add the api keys.
+
                 - google civic api
+
                 - 5calls api
+
                 - congress.gov api
+                
