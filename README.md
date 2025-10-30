@@ -1,10 +1,15 @@
 setup
 
 ./frontend 
+
     bash
+
     npm install (install dependcies)
+
 ./backend
+
     bash
+
     wsl.exe --install (installs wsl)
 
     wsl.exe --list --online (To check distros (optional))
@@ -28,14 +33,20 @@ setup
 Server Running
 
 ./frontend
-    bash
-    npx vite
-        Open the local link it gives
-./backend
-    bash
-    docker build -t imageName .
-    docker run -p 8080:8080 imageName 
 
+    bash
+
+    npx vite
+
+        Open the local link it gives
+
+./backend
+
+    bash
+
+    docker build -t imageName .
+
+    docker run -p 8080:8080 imageName 
 
 testing
 
@@ -50,4 +61,4 @@ testing
                 - 5calls api
 
                 - congress.gov api
-                
+
