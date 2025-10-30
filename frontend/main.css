@@ -1,0 +1,153 @@
+
+body {
+    background-color: #000000;
+    color: #c8c8c8;
+    margin: 10;
+
+}
+
+
+.centerPage {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.starterPage h1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.starterPage p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.starterPage {
+    margin: 0;
+    display: block;
+    place-items: center;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 1000px;
+
+}
+
+.evilPadding {
+    height: 1000px;
+}
+
+.endingPage {
+    margin: 0;
+    display: block;
+    place-items: center;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 300px;
+}
+.userInput {
+  display: flex;
+  flex-direction: row;     
+  justify-content: center; 
+  align-items: center;   
+  width: 100%;           
+  flex-wrap: wrap;     
+  box-sizing: border-box;
+  padding: 1rem 0; 
+  gap: 15px;    
+}
+
+.userInput input {
+  border-radius: 5px;
+  border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.userInput button {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #c8c8c8;
+  font-family: 'Courier New', Courier, monospace;
+  
+  transition: 0.3s ease;
+}
+
+.userInput button:hover {
+  background-color: rgba(240, 229, 229, 0.808);
+  transform: scale(1.2);
+}
+
+.searchLine {
+    padding: 10px;
+}
+
+.finalButton {
+    padding: 10px;
+    width: calc(auto + 15x);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #41434e;
+  text-align: center;
+} 
+
+.hero {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: 10px;
+  background: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*bro I fucking hate css ts does not match the art style at all*/ 
+
+.scroller {
+  text-align: center;
+  background-color: #c8c8c8;
+  margin-top: 25px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Courier New', Courier, monospace;
+
+  transition: 0.3s ease;
+}
+
+.scroller:hover {
+  background-color: rgba(240, 229, 229, 0.808);
+  border-radius: 10px;
+  transform: scale(1.2);
+}
+
+.serverCenter {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
